@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;ficheros&apos;&#x0D;&#x0A;- Original project: &apos;EjemplosPracticas&apos;&#x0D;&#x0A;- Destination element: &apos;ficheros&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     alumnos_2.txt&#x0D;&#x0A;     alumnos_3.txt&#x0D;&#x0A;     alumnos_4.txt&#x0D;&#x0A;     alumnos_1.txt" description="Copy files" element1="ficheros/p5/alumnos_2.txt" element2="ficheros/p5/alumnos_3.txt" element3="ficheros/p5/alumnos_4.txt" element4="ficheros/p5/alumnos_1.txt" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712242132278" target="/PI5_Ejemplos/ficheros" units="0" version="1.0"/>
+</session>

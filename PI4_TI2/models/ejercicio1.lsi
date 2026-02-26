@@ -1,0 +1,27 @@
+head section
+
+Integer getNumVariedades()
+Integer getNumHuertos()
+
+Integer getIncompatibilidad(Integer i,Integer k)
+Integer getMetrosRequeridos(Integer i)
+Integer getMetrosDisponibles(Integer j)
+
+Integer n = getNumVariedades()
+Integer m = getNumHuertos()
+Integer e = getNumVariedades()
+
+goal section
+
+max sum(x[i,j], i in 0 .. n, j in 0 .. m)
+
+constraints section
+
+sum(x[i,j], j in 0 .. m) <= 1, i in 0 .. n
+sum(getMetrosRequeridos(i) x[i,j], i in 0 .. n) <= getMetrosDisponibles(j), j in 0 .. m
+getIncompatibilidad(i,k) x[i,j] + x[k,j] <=1.9, i in 0 .. n, j in 0 .. m , k in 0 .. e
+
+
+bin
+
+x[i,j], i in 0 .. n, j in 0 .. m

@@ -1,0 +1,5 @@
+head section
+
+Integer getSuma()
+List<Integer> getListaNumeros()
+Integer getNumElementos()

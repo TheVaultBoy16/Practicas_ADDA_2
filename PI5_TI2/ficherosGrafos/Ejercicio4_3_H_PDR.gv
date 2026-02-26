@@ -1,0 +1,23 @@
+strict digraph G {
+  1 [ label="(9,[9],8)" ];
+  2 [ color="red" label="(10,[],9)" ];
+  3 [ label="(8,[8, 9],7)" ];
+  4 [ label="(7,[7, 8, 9],6)" ];
+  5 [ label="(6,[6, 7, 8, 9],4)" ];
+  6 [ label="(5,[4, 6, 7, 8, 9],2)" ];
+  7 [ label="(4,[2, 4, 6, 7, 8, 9],3)" ];
+  8 [ label="(3,[2, 3, 4, 6, 7, 8, 9],1)" ];
+  9 [ label="(2,[1, 2, 3, 4, 6, 7, 8, 9],5)" ];
+  10 [ label="(1,[1, 2, 3, 4, 5, 6, 7, 8, 9],0)" ];
+  11 [ label="(0,[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],10)" ];
+  1 -> 2 [ color="red" label="9" ];
+  3 -> 1 [ color="red" label="8" ];
+  4 -> 3 [ color="red" label="7" ];
+  5 -> 4 [ color="red" label="6" ];
+  6 -> 5 [ color="red" label="4" ];
+  7 -> 6 [ color="red" label="2" ];
+  8 -> 7 [ color="red" label="3" ];
+  9 -> 8 [ color="red" label="1" ];
+  10 -> 9 [ color="red" label="5" ];
+  11 -> 10 [ color="red" label="0" ];
+}
